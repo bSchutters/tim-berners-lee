@@ -12,6 +12,7 @@
 
   ul.breadcrumb {
     margin-top: 55px;
+    margin-left: 20px;
   }
 
   #header-content-mobile {
@@ -24,6 +25,16 @@
 
   #listen {
     display: none !important;
+  }
+
+  main {
+    max-width: 820px;
+  }
+
+  #text-page {
+    max-width: 55%;
+    font-size: 20px;
+    line-height: 1.6;
   }
 
   /* NAV BAR DESKTOP */
@@ -111,5 +122,19 @@
 
   .links-sources-desktop span {
     color: gray;
+  }
+
+  #card-and-text {
+    flex-direction: row;
+  }
+
+  #card {
+    order: 2;
+  }
+
+  #content {
+    border: solid 1px lightgray;
+    margin-left: 30px;
+    margin-bottom: 30px;
   }
 }

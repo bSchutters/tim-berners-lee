@@ -296,6 +296,7 @@ section#listen {
   flex-direction: column;
   border-radius: 12px;
   width: 100%;
+  position: relative;
 }
 
 #photo-card img {
@@ -374,4 +375,8 @@ section#listen {
   text-decoration-style: dotted;
 }
 
-/* BREAKPOINTS */
+#card-and-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
