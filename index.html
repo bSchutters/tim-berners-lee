@@ -9,13 +9,12 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- NAV MOBILE -->
 
-    <nav id="nav-mobile">
-      <div id="left-nav">
+    <nav id="nav-mobile" class="hidden">
+      <div id="left-nav-mobile">
         <i class="bx bx-menu"></i>
         <i class="bx bx-search-alt-2"></i>
       </div>
@@ -24,10 +23,10 @@
         <img src="./assets/LogoWhite_Britannica.png" alt="" />
       </div>
 
-      <div id="right-nav">
+      <div id="right-nav-mobile">
         <i class="bx bxs-user-circle"></i>
         <i class="bx bx-chevron-down"></i>
-        <button>Subscribe</button>
+        <button class="btn-subscribe">Subscribe</button>
       </div>
     </nav>
     <div id="under-nav">
@@ -39,6 +38,28 @@
       </a>
     </div>
 
+    <!-- NAV DESKTOP -->
+
+    <nav id="nav-desktop">
+      <div id="left-nav-desktop">
+        <div id="logo">
+          <img src="./assets/LogoWhite_Britannica.png" alt="" />
+        </div>
+        <a class="text-icon" href=""><i class="bx bx-menu"></i>Browse</a>
+        <a class="text-icon" href=""
+          ><i class="bx bx-search-alt-2"></i>Search</a
+        >
+        <a href="">Dictionary</a>
+        <a href="">Quizzes</a>
+        <a href="">Money</a>
+      </div>
+
+      <div id="right-nav-desktop">
+        <button class="btn-subscribe">Subscribe</button>
+        <a href="">Login<i class="bx bx-chevron-down"></i></a>
+      </div>
+    </nav>
+
     <!-- BREADCRUMB -->
     <ul class="breadcrumb">
       <li><a href="#">Home</a></li>
@@ -49,7 +70,7 @@
     </ul>
 
     <main id="content">
-      <section id="header-content">
+      <section id="header-content-mobile">
         <p class="tag">Science & Tech</p>
         <div id="title-action">
           <h1>Tim Berners-Lee</h1>
@@ -73,6 +94,31 @@
         <p id="last-updated" class="links-sources">
           Last Updated: <a class="a-dotted" href="">Article History</a>
         </p>
+      </section>
+
+      <section id="header-content-desktop">
+        <div>
+          <h1>Tim Berners-Lee</h1>
+          <p id="sous-titre">British scientist</p>
+        </div>
+        <div id="group-btn-actions">
+          <a class="btn" href=""><i class="bx bxs-printer"></i> Print</a>
+          <a class="btn" href=""><i class="bx bxs-badge-check"></i> Cite</a>
+          <a class="btn" href=""><i class="bx bxs-share-alt"></i> Share</a>
+          <a class="btn" href=""
+            ><i class="bx bxs-message-alt-detail"></i> Feedback</a
+          >
+          <a class="btn" href=""><i class="bx bx-dots-vertical-rounded"></i></a>
+        </div>
+        <div>
+          <p class="surnom">Also known as: Sir Tim Berners-Lee</p>
+
+          <p id="written-by-desktop" class="links-sources-desktop">
+            By <a class="" href="">Michael Aaron Dennis</a>
+            <span>• Last updated: Dec 2, 2022</span>
+            <a href="">• Edit History</a>
+          </p>
+        </div>
       </section>
 
       <section id="table-of-content">
