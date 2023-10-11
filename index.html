@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/restaurant-css-framework/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tim Berners-Lee</title>
     <link
@@ -10,8 +10,8 @@
       rel="stylesheet"
     />
     
-    <script type="module" crossorigin src="/assets/index-9a6e49e7.js"></script>
-    <link rel="stylesheet" href="/assets/index-caaef242.css">
+    <script type="module" crossorigin src="/restaurant-css-framework/assets/index-3b12a312.js"></script>
+    <link rel="stylesheet" href="/restaurant-css-framework/assets/index-5ac34ee9.css">
   </head>
   <body>
     <!-- NAV MOBILE -->
@@ -23,7 +23,7 @@
       </div>
 
       <div id="logo">
-        <img src="/assets/LogoWhite_Britannica-a9d67202.png" alt="" />
+        <img src="/restaurant-css-framework/assets/LogoWhite_Britannica-a9d67202.png" alt="" />
       </div>
 
       <div id="right-nav">
@@ -32,41 +32,118 @@
         <button>Subscribe</button>
       </div>
     </nav>
+    <div id="under-nav">
+      <p>
+        <b><a href="">Tim Berners-Lee</a></b>
+      </p>
+      <a href="#"
+        ><i class="bx bx-list-ul bx-rotate-180"></i> Table of content
+      </a>
+    </div>
 
     <!-- BREADCRUMB -->
+    <ul class="breadcrumb">
+      <li><a href="#">Home</a></li>
+      <i class="bx bx-chevron-right"></i>
+      <li><a href="#">Science</a></li>
+      <i class="bx bx-chevron-right"></i>
+      <li><a href="#">Mathematics</a></li>
+    </ul>
 
     <main id="content">
-      <ul class="breadcrumb">
-        <li><a href="#">Home</a></li>
-        <i class="bx bx-chevron-right"></i>
-        <li><a href="#">Science</a></li>
-        <i class="bx bx-chevron-right"></i>
-        <li><a href="#">Mathematics</a></li>
-      </ul>
       <section id="header-content">
-        <p id="tag">Science & Tech</p>
+        <p class="tag">Science & Tech</p>
         <div id="title-action">
           <h1>Tim Berners-Lee</h1>
-          <a href=""><i class="bx bx-dots-vertical-rounded"></i>Actions</a>
+          <a class="btn" href=""
+            ><i class="bx bx-dots-vertical-rounded"></i>Actions</a
+          >
         </div>
         <p id="sous-titre">British scientist</p>
 
         <p id="surnom">Also known as: Sir Tim Berners-Lee</p>
 
         <p id="written-by" class="links-sources">
-          Written by <a href="">Michael Aaron Dennis</a>
+          Written by <a class="a-dotted" href="">Michael Aaron Dennis</a>
         </p>
         <p id="fast-checked" class="links-sources">
           Fact-checked by
-          <a href="">The Editors of Encyclopaedia Britannica</a>
+          <a class="a-dotted" href=""
+            >The Editors of Encyclopaedia Britannica</a
+          >
         </p>
         <p id="last-updated" class="links-sources">
-          Last Updated: <a href="">Article History</a>
+          Last Updated: <a class="a-dotted" href="">Article History</a>
         </p>
       </section>
+
       <section id="table-of-content">
         <i class="bx bx-list-ul bx-rotate-180"></i>
         <h2>Table of content</h2>
+      </section>
+
+      <section id="listen">
+        <div id="left-listen">
+          <i id="play-circle" class="bx bx-play-circle"></i>
+          <p>Listen to article</p>
+          <p id="min">3 minutes</p>
+        </div>
+        <i id="equalizer" class="bx bx-equalizer"></i>
+        <i id="info-bulle" class="bx bx-info-circle"></i>
+      </section>
+
+      <section id="card">
+        <figure id="photo-card">
+          <div id="loupe">
+            <i class="bx bx-zoom-in"></i>
+          </div>
+          <img src="/restaurant-css-framework/assets/tim_berners_lee-2fd9fc1b.webp" alt="" />
+          <figcaption>Tim Berners-Lee</figcaption>
+        </figure>
+        <a id="all-media" href="#">See all media</a>
+        <div id="text-card">
+          <p><b>Category:</b> <span class="tag">Science & Tech</span></p>
+          <p><b>In Full:</b> Sir Tom Berners-Lee</p>
+          <p>
+            <b>Born:</b> June 8, 1955, <a href="#">London</a>,
+            <a href="#">England</a> (age 68)
+          </p>
+          <p><b>Funder:</b> <a href="#">World Wide Web Consortium</a></p>
+          <p>
+            <b>Inventions:</b> <a href="#">World Wide Web</a> •
+            <a href="#">World Wide Web</a>
+          </p>
+        </div>
+        <a class="btn" href=""
+          >See all related content <i class="bx bx-right-arrow-alt"></i
+        ></a>
+      </section>
+      <section id="text-page">
+        <p>
+          <b>Tim Berners-Lee</b>, in full <b>Sir Tim Berners-Lee</b>, (born June
+          8, 1955, <a href="#">London</a>, <a href="#">England</a>), British
+          computer scientist, generally
+          <a class="a-dotted" href="">credited</a> as the inventor of the World
+          Wide Web. In 2004 he was awarded a knighthood by Queen
+          <a href="#">Elizabeth II</a> of the United Kingdom and the inaugural
+          Millennium Technology Prize (€1 million) by the Finnish Technology
+          Award Foundation.
+        </p>
+        <br />
+        <p>
+          Computing came naturally to Berners-Lee, as both of his parents worked
+          on the <a href="#">Ferranti Mark I</a>, the first commercial computer.
+          (<i>See</i>
+          <a href="">computer: The first stored-program machines</a>.) After
+          graduating in 1976 from the <a href="">University of Oxford</a>,
+          Berners-Lee designed computer <a href="">software</a> for two years at
+          Plessey Telecommunications Ltd., located in <a href="#">Poole</a>,
+          Dorset, <a href="">England</a>. Following this, he had several
+          positions in the computer industry, including a stint from June to
+          December 1980 as a software engineering consultant at
+          <a href="#">CERN</a>, the European
+          <a href="#">particle physics</a> laboratory in <a href="">Geneva</a>.
+        </p>
       </section>
     </main>
 
