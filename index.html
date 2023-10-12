@@ -2,22 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/tim-berners-lee/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="data:image/x-icon;base64,AAABAAEAICAQAAEABADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACaZjMAnG1BAKJySACsg1QAt5JoALycdgDGo4YAy66UAM+3oADZwaoA3sy3AOPWxQDs3dQA8uniAPr48wAAAAAAAAAAAQAAABABAAAAAAAQAQAAABAAAQAAAAAQAAAAAAAAAAAAAAABAAAAAAAQAAAQAAEAAQABAJ6OMQAQAAABAAAAEBAAAAFejiAAAAABAAEAEAAAAAEAvl5AAgAAAAAAEAAAAAAQAG6uEAAAAAAAEAAAEAAAEAG+bkEAEAAQAQAAAAAQAQAAbn4QAAAAAQABABAQAAExEc6ecRQQAQEAACAQABMBHZreTtelEBIAAAEAAAAF5B6hjp0zwxihAAAAAAAVMLxWRs5etVhtEDIBAQAAFseDWuUeej7VLaizAAABABHhTdSxfo4ai9UccAAAIBE6de0wEc5+QAC+lLUSEAA95i4xATjoqbQQEdos6RAAAbeeEBO9i1uOYhBeXFAAAABk7hE+p1hYWucAroYAARAFttwxvaiFeIWuELy1gAABjjtwE9uIh4WYfHIT4pgQA7x+sAPMqYdbaJtwCOjrYAAVvuIBXsmHx5ioEQ7rsSEQBuVlABjsunqcoQA7PIAAARygAQAB3avL7lIBEQrAAQBOMAAABnre7slgAAAD5AAC5gAAEDgTdIdRNgAAAF0gGIAAAAGIVCVDOFpAAAAGgAIAAAAAGIWIiHmCEAAAACAREREREREWVXRjIREREREQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tim Berners-Lee</title>
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="/tim-berners-lee/assets/index-ba0c78b4.js"></script>
-    <link rel="stylesheet" href="/tim-berners-lee/assets/index-8c239cd0.css">
+    <script type="module" crossorigin src="/tim-berners-lee/assets/index-60d7e845.js"></script>
+    <link rel="stylesheet" href="/tim-berners-lee/assets/index-2cdf100c.css">
   </head>
   <body>
     <!-- NAV MOBILE -->
 
     <nav id="nav-mobile" class="hidden">
       <div id="left-nav-mobile">
-        <i class="bx bx-menu"></i>
+        <i id="btn-menu-burger" class="bx bx-menu"></i>
         <i class="bx bx-search-alt-2"></i>
       </div>
 
@@ -39,6 +39,36 @@
         ><i class="bx bx-list-ul bx-rotate-180"></i> Table of content
       </a>
     </div>
+
+    <nav id="burger-menu" class="test">
+      <div id="search-box">
+        <input
+          type="search"
+          name=""
+          id="input-search-box"
+          placeholder="Search Britannica..."
+        />
+        <i class="bx bx-search-alt-2"></i>
+      </div>
+      <div id="burger-menu-links-1" class="burger-menu-links">
+        <a href="">Home</a>
+        <a href="">History & Society</a>
+        <a href="">Science & Tech</a>
+        <a href="">Biographies</a>
+        <a href="">Animals & Nature</a>
+        <a href="">Geography & Travel</a>
+        <a href="">Arts & Culture</a>
+        <a href="">Money</a>
+      </div>
+      <div id="burger-menu-links-2" class="burger-menu-links">
+        <a href="">Quizzes & Games</a>
+        <a href="">Videos</a>
+        <a href="">On This Day</a>
+        <a href="">One Good Fact</a>
+        <a href="">Dictionary</a>
+        <a href="">New Articles</a>
+      </div>
+    </nav>
 
     <!-- NAV DESKTOP -->
 
@@ -94,7 +124,12 @@
           >
         </p>
         <p id="last-updated" class="links-sources">
-          Last Updated: <a class="a-dotted" href="">Article History</a>
+          Last Updated:
+          <a
+            class="a-dotted"
+            href="https://www.britannica.com/biography/Tim-Berners-Lee/additional-info#history"
+            >Article History</a
+          >
         </p>
       </section>
 
@@ -152,45 +187,82 @@
             <p><b>Category:</b> <span class="tag">Science & Tech</span></p>
             <p><b>In Full:</b> Sir Tom Berners-Lee</p>
             <p>
-              <b>Born:</b> June 8, 1955, <a href="#">London</a>,
-              <a href="#">England</a> (age 68)
+              <b>Born:</b> June 8, 1955,
+              <a href="https://www.britannica.com/place/London">London</a>,
+              <a href="https://www.britannica.com/place/England">England</a>
+              (age 68)
             </p>
-            <p><b>Funder:</b> <a href="#">World Wide Web Consortium</a></p>
             <p>
-              <b>Inventions:</b> <a href="#">World Wide Web</a> •
-              <a href="#">World Wide Web</a>
+              <b>Funder:</b>
+              <a
+                href="https://www.britannica.com/topic/World-Wide-Web-Consortium"
+                >World Wide Web Consortium</a
+              >
+            </p>
+            <p>
+              <b>Inventions:</b>
+              <a href="https://www.britannica.com/topic/World-Wide-Web"
+                >World Wide Web</a
+              >
+              •
+              <a href="https://www.britannica.com/topic/World-Wide-Web"
+                >World Wide Web</a
+              >
             </p>
           </div>
-          <a class="btn" href=""
+          <a class="btn" href="https://www.britannica.com/facts/Tim-Berners-Lee"
             >See all related content <i class="bx bx-right-arrow-alt"></i
           ></a>
         </section>
         <section id="text-page">
           <p>
             <b>Tim Berners-Lee</b>, in full <b>Sir Tim Berners-Lee</b>, (born
-            June 8, 1955, <a href="#">London</a>, <a href="#">England</a>),
+            June 8, 1955,
+            <a href="https://www.britannica.com/place/London">London</a>,
+            <a href="https://www.britannica.com/place/England">England</a>),
             British computer scientist, generally
             <a class="a-dotted" href="">credited</a> as the inventor of the
-            World Wide Web. In 2004 he was awarded a knighthood by Queen
-            <a href="#">Elizabeth II</a> of the United Kingdom and the inaugural
-            Millennium Technology Prize (€1 million) by the Finnish Technology
-            Award Foundation.
+            <a href="https://www.britannica.com/topic/World-Wide-Web"
+              >World Wide Web</a
+            >. In 2004 he was awarded a knighthood by Queen
+            <a href="https://www.britannica.com/biography/Elizabeth-II"
+              >Elizabeth II</a
+            >
+            of the United Kingdom and the inaugural Millennium Technology Prize
+            (€1 million) by the Finnish Technology Award Foundation.
           </p>
           <br />
           <p>
             Computing came naturally to Berners-Lee, as both of his parents
-            worked on the <a href="#">Ferranti Mark I</a>, the first commercial
-            computer. (<i>See</i>
-            <a href="">computer: The first stored-program machines</a>.) After
-            graduating in 1976 from the <a href="">University of Oxford</a>,
-            Berners-Lee designed computer <a href="">software</a> for two years
-            at Plessey Telecommunications Ltd., located in
-            <a href="#">Poole</a>, Dorset, <a href="">England</a>. Following
-            this, he had several positions in the computer industry, including a
-            stint from June to December 1980 as a software engineering
-            consultant at <a href="#">CERN</a>, the European
-            <a href="#">particle physics</a> laboratory in
-            <a href="">Geneva</a>.
+            worked on the
+            <a href="https://www.britannica.com/technology/Ferranti-Mark-I"
+              >Ferranti Mark I</a
+            >, the first commercial computer. (<i>See</i>
+            <a
+              href="https://www.britannica.com/technology/computer/ENIAC#ref216048"
+              >computer: The first stored-program machines</a
+            >.) After graduating in 1976 from the
+            <a href="https://www.britannica.com/topic/University-of-Oxford"
+              >University of Oxford</a
+            >, Berners-Lee designed computer
+            <a href="https://www.britannica.com/technology/software"
+              >software</a
+            >
+            for two years at Plessey Telecommunications Ltd., located in
+            <a href="https://www.britannica.com/place/Poole">Poole</a>, Dorset,
+            <a href="https://www.britannica.com/place/England">England</a>.
+            Following this, he had several positions in the computer industry,
+            including a stint from June to December 1980 as a software
+            engineering consultant at
+            <a href="https://www.britannica.com/topic/CERN">CERN</a>, the
+            European
+            <a href="https://www.britannica.com/science/particle-physics"
+              >particle physics</a
+            >
+            laboratory in
+            <a href="https://www.britannica.com/place/Geneva-Switzerland"
+              >Geneva</a
+            >.
           </p>
         </section>
       </div>
