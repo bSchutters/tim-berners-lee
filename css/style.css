@@ -5,6 +5,10 @@
 
 /* HIDDING */
 
+.test {
+  display: none !important;
+}
+
 #nav-desktop {
   display: none;
 }
@@ -53,6 +57,81 @@
 #right-nav-mobile {
   display: flex;
   align-items: center;
+}
+
+/* MENU BURGER */
+
+#burger-menu {
+  position: fixed;
+  top: 55px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0c1c2d;
+  z-index: 30;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-top: solid 1px #132b43;
+}
+
+#search-box {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #374669;
+  border-radius: 16px;
+  background: #fff;
+  align-items: center;
+  overflow: hidden;
+  height: 40px;
+}
+
+#search-box #input-search-box {
+  outline: none;
+  border: none;
+  background: none;
+  font-size: 1em;
+  padding: 0.5em;
+  color: inherit;
+  flex: auto 1 1;
+  width: 100%;
+  background: none;
+  background-color: transparent;
+}
+
+#input-search-box::placeholder {
+  color: lightgray;
+}
+
+#search-box i {
+  padding: 10px;
+  font-size: 22px;
+  color: lightgray;
+}
+
+.burger-menu-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.burger-menu-links a {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+}
+
+.burger-menu-links a:hover {
+  background-color: #2a5898;
+  border-radius: 8px;
+}
+
+#btn-menu-burger:hover {
+  cursor: pointer;
 }
 
 /* UNDER NAV */
